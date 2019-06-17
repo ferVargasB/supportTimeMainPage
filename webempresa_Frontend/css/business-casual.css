@@ -1,6 +1,6 @@
 body {
   font-family: 'Lora';
-  background: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../img/bg.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.95), rgba(188, 179, 240, 0.582)), url("../img/bg.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -80,7 +80,7 @@ p {
 }
 
 #mainNav {
-  background-color: rgba(47, 23, 15, 0.9);
+  background-color: rgba(0, 98, 205, 0.65);
   font-family: 'Raleway';
 }
 
@@ -94,7 +94,7 @@ p {
 }
 
 #mainNav .navbar-nav .nav-item.active .nav-link {
-  color: #e6a756;
+  color:  rgba(255, 255, 255, 1);
 }
 
 @media (min-width: 992px) {
@@ -102,10 +102,10 @@ p {
     font-size: 0.9rem;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: rgba(255, 255, 255, 0.4);
+    color: rgba(248, 249, 250, 1);
   }
   #mainNav .navbar-nav .nav-item.active .nav-link:hover {
-    color: #e6a756;
+    color: #08067e;
   }
 }
 
@@ -150,7 +150,7 @@ p {
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: rgba(230, 167, 86, 0.9);
+  background-color: rgba(255, 255, 255, 0);
 }
 
 .cta .cta-inner {
@@ -237,11 +237,11 @@ p {
 }
 
 .footer {
-  background-color: rgba(47, 23, 15, 0.9);
+  background-color: #002348e0;
 }
 
 .text-primary {
-  color: #e6a756 !important;
+  color: rgb(0, 98, 204,1) !important;
 }
 
 .bg-primary {
@@ -253,13 +253,13 @@ p {
 }
 
 .btn-primary {
-  background-color: #e6a756;
-  border-color: #e6a756;
+  background-color:rgba(0, 98, 205, 1);  
+  border-color: rgba(5, 101, 255, 1);
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #df902a;
-  border-color: #df902a;
+  background-color: rgba(0, 123, 255, 1);  
+  border-color: rgba(0, 98, 205, 1);
 }
 
 .font-weight-light {
