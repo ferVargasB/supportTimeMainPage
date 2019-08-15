@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.7/css/uikit.min.css" />
+
+    <!-- UIkit JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.7/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.7/js/uikit-icons.min.js"></script>
+</head>
+
+<body>
+    <div class="uk-grid-collapse uk-text-center" uk-grid >
+        <nav class="uk-width-1-1 uk-navbar-container" uk-navbar >
+            <div class="uk-navbar-center">
+
+                <a class="uk-navbar-item uk-logo" href="#">Logo</a>
+
+                <ul class="uk-navbar-nav">
+                    <li>
+                        <a href="#">Menu Emergente</a>
+                        <div class="uk-navbar-dropdown">
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li class="uk-active"><a href="#">Active</a></li>
+                                <li><a href="#">Item</a></li>
+                                <li><a href="#">Item</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">Menu2</a></li>
+                    <li><a href="#">Menu3</a></li>
+                    <li><a href="#">Menu4</a></li>
+                </ul>
+
+            </div>
+        </nav>
+        <section class="uk-width-1-1">
+            <div class="uk-container" >
+                <div class="uk-card uk-card-default uk-card-body">
+                    <div class="uk-container " uk-grid>
+                        <div class="uk-width-1-1@s uk-width-1-1@m">
+                            <article class="uk-comment uk-comment-primary">
+                                <header class="uk-comment-header uk-grid-medium uk-flex-middle" uk-grid>
+                                    <div class="uk-width-expand">
+                                        <h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset"
+                                                href="#">Author</a>
+                                        </h4>
+                                    </div>
+                                </header>
+                                <div class="uk-comment-body">
+                                    <p>Con más de 18 años de experiencia en la fabricación de maquinaria para el
+                                        llenado, etiquetado y taponado de principios y finales de linea; A todas
+                                        aquellas empresas envasadoras de productos,
+                                        líquidos, densos, semi-densos, especialistas en bebidas, cosméticos y alimentos.
+                                        ¡No busques más!
+                                    </p>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="uk-width-1-1@s uk-width-1-1@m">
+                            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1"
+                                uk-slideshow="animation: push">
+
+                                <ul class="uk-slideshow-items">
+                                    <li>
+                                        <div class="uk-position-cover" uk-slideshow-parallax="scale: 1.2,1.2,1">
+                                            <img src="images/photo.jpg" alt="" uk-cover>
+                                        </div>
+                                        <div class="uk-position-cover"
+                                            uk-slideshow-parallax="opacity: 0,0,0.2; backgroundColor: #000,#000"></div>
+                                        <div class="uk-position-center uk-position-medium uk-text-center">
+                                            <div uk-slideshow-parallax="scale: 1,1,0.8">
+                                                <h2 uk-slideshow-parallax="x: 200,0,0">Text</h2>
+                                                <p uk-slideshow-parallax="x: 400,0,0;">Lorem ipsum dolor sit amet.</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="uk-position-cover" uk-slideshow-parallax="scale: 1.2,1.2,1">
+                                            <img src="images/dark.jpg" alt="" uk-cover>
+                                        </div>
+                                        <div class="uk-position-cover"
+                                            uk-slideshow-parallax="opacity: 0,0,0.2; backgroundColor: #000,#000"></div>
+                                        <div class="uk-position-center uk-position-medium uk-text-center">
+                                            <div uk-slideshow-parallax="scale: 1,1,0.8">
+                                                <h2 uk-slideshow-parallax="x: 200,0,0">Texto</h2>
+                                                <p uk-slideshow-parallax="x: 400,0,0;">Lorem ipsum dolor sit amet.</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="uk-position-cover" uk-slideshow-parallax="scale: 1.2,1.2,1">
+                                            <img src="images/light.jpg" alt="" uk-cover>
+                                        </div>
+                                        <div class="uk-position-cover"
+                                            uk-slideshow-parallax="opacity: 0,0,0.2; backgroundColor: #000,#000"></div>
+                                        <div class="uk-position-center uk-position-medium uk-text-center">
+                                            <div uk-slideshow-parallax="scale: 1,1,0.8">
+                                                <h2 uk-slideshow-parallax="x: 200,0,0">Text</h2>
+                                                <p uk-slideshow-parallax="x: 400,0,0;">Lorem ipsum dolor sit amet.</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#"
+                                    uk-slidenav-previous uk-slideshow-item="previous"></a>
+                                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#"
+                                    uk-slidenav-next uk-slideshow-item="next"></a>
+
+                            </div>
+                        </div>
+                        <div class="uk-width-1-1@s">
+                            <h3 class="uk-heading-bullet">Encabezado</h3>
+                        </div>
+                        <div class="uk-width-1-1@s uk-width-1-4@m">
+                            <div class="uk-animation-toggle" tabindex="0">
+                                <div class="uk-card uk-card-default uk-card-body uk-animation-scale-down">1-4@m</div>
+                            </div>
+                        </div>
+                        <div class="uk-width-1-1@s uk-width-1-4@m">
+                            <div class="uk-animation-toggle" tabindex="0">
+                                <div class="uk-card uk-card-default uk-card-body uk-animation-scale-down">1-4@m</div>
+                            </div>
+                        </div>
+                        <div class="uk-width-1-1@s uk-width-1-4@m">
+                            <div class="uk-animation-toggle" tabindex="0">
+                                <div class="uk-card uk-card-default uk-card-body uk-animation-scale-down">1-4@m</div>
+                            </div>
+                        </div>
+                        <div class="uk-width-1-1@s uk-width-1-4@m">
+                            <div class="uk-animation-toggle" tabindex="0">
+                                <div class="uk-card uk-card-default uk-card-body uk-animation-scale-down">1-4@m</div>
+                            </div>
+                        </div>
+                        <div class="uk-width-1-1@s uk-width-1-2@m"
+                            uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 500; repeat: true">
+                            <div class="uk-card uk-card-default uk-card-body">1-4@m</div>
+                        </div>
+                        <div class="uk-width-1-1@s uk-width-1-2@m"
+                            uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 500; repeat: true">
+                            <div class="uk-card uk-card-default uk-card-body ">1-4@m</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="uk-width-1-1" style="background-color: green">
+            <div class="uk-grid-collapse uk-child-width-1-2" uk-grid>
+                <div>
+                    <div class="uk-background-primary uk-padding uk-light">Item</div>
+                </div>
+                <div>
+                    <div class="uk-background-secondary uk-padding uk-light">Item</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
